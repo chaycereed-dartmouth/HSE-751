@@ -8,7 +8,7 @@ This notebooks examines how eight health measurements differ between patients ba
 
 Before the analysis, the data is cleaned, validated, and summarized.
 
-Several measurements have values that are implausible (e.g., BMI < 0 or age > 150) or indicate that missing measurement (e.g., BMI = 0), so these values are set as missing, per the predefined validity rules set in Section 6. In addition, duplicate observations are identified and removed, and data types are checked.
+Several measurements have values that are implausible (e.g., BMI < 0 or age > 150) or indicate a missing measurement (e.g., BMI = 0), so these values are set as NaN, per the predefined validity rules set in Section 6. In addition, duplicate observations are identified and removed, and data types are checked.
 
 The analysis then proceeds to perform descriptive statistics for each predictor overall and by outcome group, visualization of the distributions between predictors and by outcome, and inferential analysis to identify whether each predictor differs between the two outcome groups.
 
@@ -161,7 +161,7 @@ Thanks to the National Institute of Diabetes and Digestive and Kidney Diseases o
 
 Generative AI (Claude) was used as a coding, learning, and editing assistant for the following:
 
-- Syntax and package questions (e.g., installing specific package versions in the Google Colab environment, loading data from a public repository, implementing Welchs t-test across all predictors)
+- Python syntax and package questions (e.g., installing specific package versions in the Google Colab environment, loading data from a public repository, implementing Welchs t-test across all predictors)
 - Brainstorming and editing notebook and README structure / contents, and learning reproducibility best practices
 - Assistance brainstorming, identifying, editing, and interpreting visualizations, assumption violations / limitations, and t-test results
 

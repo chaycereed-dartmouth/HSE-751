@@ -113,9 +113,9 @@ No local setup is required. Section 2.1 of the notebook installs the required pa
 
 The dataset is pulled from this repository automatically. To use a local copy instead, upload `Example Dataset_Diabetes.csv` to `/content` before running. If done, the notebook will detect and use it.
 
-## Instructions for Executing Notebooks
+## Instructions for Executing Notebook
 
-1. Open `diabetes_risk_factor_analysis.ipynb` in Google Colab.
+1. Open `diabetes_risk_factor_analysis.ipynb` in Google Colab using the link at the top of this README.
 2. Select **Run all**.
 3. The dataset is pulled from automatically from this repository, no additional setup or configuration is required. If uploading a local copy is preferred, upload `Example Dataset_Diabetes.csv` to `/content` before running.
 

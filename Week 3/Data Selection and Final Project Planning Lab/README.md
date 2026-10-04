@@ -22,10 +22,11 @@ Data Selection and Final Project Planning Lab/
 ├── data_selection_and_final_project_planning_lab.ipynb
 └── outputs/
     └── figures/
-        ├── predictor_histograms.png
-        ├── predictor_boxplots.png
-        ├── bmi_glucose_scatterplot.png
-        └── correlation_heatmap.png
+        ├── predictor_distributions.png
+        ├── outcome_distributions.png
+        ├── outcome_distributions_by_lottery_status.png
+        ├── outcome_distributions_by_subgroup.png
+        └── predictor_correlation_heatmap.png
 ```
 
 ## Notebook Structure

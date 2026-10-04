@@ -1,12 +1,12 @@
-# Data Selection and Finaly Project Planning Lab
+# Data Selection and Final Project Planning Lab
 
 **Project Name:** Allocating Scarce Medicaid Coverage: A Counterfactual Comparison of Lottery, Need-Based, and Learned Targeting in the Oregon Health Insurance Experiment
+
+**Google Colab:** https://colab.research.google.com/drive/18PLz4JU1gqyI56n-lp3NdDap5LiDeD9s?usp=sharing
 
 **Author:** Chayce Reed
 
 **Date:** 10/03/26
-
-**Google Colab:** https://colab.research.google.com/drive/18PLz4JU1gqyI56n-lp3NdDap5LiDeD9s?usp=sharing
 
 ## Purpose
 
@@ -17,7 +17,7 @@ It loads the NBER public-use files and merges the lottery, enrollment, and 12-mo
 ## Repo Structure
 
 ```
-Data Selection and Finaly Project Planning Lab/
+Data Selection and Final Project Planning Lab/
 ├── README.md
 ├── data_selection_and_final_project_planning_lab.ipynb
 └── outputs/

@@ -162,8 +162,8 @@ The notebook uses a single random seed (`SEED = 123`) and produces the same outp
 
 - Several measurements recorded 0 where no reading was taken. The reason these measurements were not collected or recorded is unknown and may be systematic, which could bias the results.
 - Insulin (374 zeros / missing values) and skin thickness (227 zeros / missing values) were the most affected by missingness, reducing the sample size and limiting the robustness of the findings for these variables.
-- The t-tests assume an approximate normality for each group, which may be violated for pregnancies, insulin, and pedigree which appear to be right skewed.
-- The Student's t-test assumes equal variance between groups, which Welch's t-test does not.
+- The t-tests and ANOVA assume an approximately normal distribution for each group, which may be violated for pregnancies, insulin, and pedigree which appear to be right skewed. The Mann-Whitney U test was included as a robustness check, since it does not rely on this assumption.
+- The one-way ANOVA assumes equal variance between groups, while the Welch's t-test does not.
 - The cohort is female patients aged 21 and older, limiting generalizability to the broader population.
 
 ## Acknowledgements

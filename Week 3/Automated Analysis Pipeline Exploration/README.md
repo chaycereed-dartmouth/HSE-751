@@ -11,7 +11,7 @@ Before the analysis, the data is loaded, cleaned, and summarized. Several measur
 ## Repo Structure
 
 ```
-Week 2/
+Automated Analysis Pipeline Exploration/
 ├── README.md
 ├── Automated_Analysis_Pipeline_Notebook.ipynb
 ├── data/
@@ -90,7 +90,7 @@ Week 2/
     - 5.3.7. Visualize feature importance from the tuned decision tree
     - 5.3.8. Histogram-Based Gradient Boosting
 
-### **New Features & Additional Modifications Made**
+### **New Features & Additional Modifications**
 ---
 
 1. First, I moved all imports and libraries to the beginning of the notebook and removed any duplicate imports. Previously, the same packages and functions were imported multiple times throughout the notebook. Keeping them in one place makes it clear what the notebook depends on, avoids reapeated/redundant code (DRY), and makes it easier to identify which packages need to be installed or their versions specified.
@@ -175,7 +175,7 @@ Thanks to the National Institute of Diabetes and Digestive and Kidney Diseases o
 Generative AI (Claude) was used as a coding, learning, and editing assistant for the following:
 
 - Python syntax and package questions, such as building a dictionary-based file reader and checking/converting data types.
-- Brainstorming, implementing, and understanding inferential statistics (i.e., Mann Whitney U) and supervised machine learning (i.e., histogram-based gradient boosting) approaches, including help understanding strengths, weaknesses, and assumptions, as well as interpreting results.
+- Brainstorming, implementing, and understanding inferential statistic methods (e.g., Mann Whitney U) and supervised machine learning (e.g., histogram-based gradient boosting) models, including help understanding/interpreting strengths, weaknesses, assumptions, and results.
 - Brainstorming and editing notebook and README structure / contents, and learning reproducibility and automation best practices
 
 I verified and reviewed all work. I take full responsibility for the accuracy and legitimacy of all work submitted.

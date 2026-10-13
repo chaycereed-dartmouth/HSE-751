@@ -8,13 +8,13 @@
 
 **Date:** 10/12/26
 
-**Note:** This notebook is a work in progress for the final project, and is actively being worked on.
+**Note:** This notebook is a work in progress for the final project, and is actively being worked on. Supervised machine learning models, causal inference methods, and visualizations are still being added, updated, and finalized.
 
 ## Purpose
 
-This notebook documents and examines the data selection, exploration, and quality assessment for a project on Medicaid coverage allocation using the Oregon Health Insurance Experiment (OHIE) Public Use Data.
+This notebook conducts an analysis of Medicaid coverage allocation using the Oregon Health Insurance Experiment (OHIE) Public Use Data, covering data selection, exploration, and quality assessment, followed by supervised machine learning classification and causal inference.
 
-It loads the NBER public-use files and merges the lottery, enrollment, and 12-month survey data into a single dataset. It also runs quality checks for duplicate person ids, missingness, invalid values, inappropriate data types, and restricts the sample to survey respondents. Finally, it provides and produces descriptive statistics and visualizations for the predictors and outcomes, including a correlation heatmap and outcome rates by treatment group.
+The modeling sections train and compare three classifiers (logistic regression, random forest, XGBoost) for predicting medical debt at 12 months, using household-grouped cross-validation, hyperparameter tuning, and out-of-fold evaluation. The causal section estimates the effect of a lottery offer (ITT, via OLS, g-computation, and AIPW) and of Medicaid enrollment among compliers (LATE, via 2SLS) on four financial strain outcomes.
 
 ## Repo Structure
 
@@ -53,7 +53,7 @@ Final Project Checkpoint/
   - 5.1. Summary & Visualization Functions
   - 5.2. Descriptive Statistics
   - 5.3. Treatment Group Comparisons
-  - 5.4. Distribution Visulizations
+  - 5.4. Distribution Visualizations
   - 5.5. Outcomes by Treatment Groups
   - 5.6. Subgroup Analysis
   - 5.7. Predictor Correlation Matrix & Heatmap

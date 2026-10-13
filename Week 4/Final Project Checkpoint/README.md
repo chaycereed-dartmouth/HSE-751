@@ -170,7 +170,7 @@ selected in the lottery (treatments) with those not selected (controls)."
 - Binary classification: predict whether a low-income, uninsured adult will owe money for medical expenses 12 months after applying for Medicaid, and which variables are the most predictive of that outcome.
 - Inputs are characteristics recorded at signup (e.g., age, sex, language preference, prior state program participation, etc), plus whether the person was selected in the lottery.
 - This prediction problem and classifier is not the ultimate end goal, and it will feed into the causal analysis and policy simulation later on.
-- Model Selection: TBD (currently thinking of running logistic regression, random forest, and XGBoost, and selecting the best performing as the final model).
+- Model Selection: Logistic regression, random forest, and XGBoost, and selecting the best performing, based on Brier score, as the final model.
 
 **Evaluation Metrics:**
 

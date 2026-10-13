@@ -1,4 +1,4 @@
-# Data Selection and Final Project Planning Lab
+# Final Project: OHIE Medicaid Policy Simulation
 
 **Project Name:** Allocating Scarce Medicaid Coverage: A Counterfactual Comparison of Lottery, Need-Based, and Learned Targeting in the Oregon Health Insurance Experiment
 
@@ -6,7 +6,7 @@
 
 **Author:** Chayce Reed
 
-**Date:** 10/03/26
+**Date:** 10/12/26
 
 **Note:** This notebook is a work in progress for the final project, and is actively being worked on.
 
@@ -24,11 +24,11 @@ Final Project Checkpoint/
 ├── ohie_medicaid_policy_simulation_final_project.ipynb
 └── outputs/
     └── figures/
-        ├── predictor_distributions.png
-        ├── outcome_distributions.png
-        ├── outcome_distributions_by_lottery_status.png
-        ├── outcome_distributions_by_subgroup.png
-        └── predictor_correlation_heatmap.png
+        ├── roc.png
+        ├── calibration.png
+        ├── confusion_matrix.png
+        ├── ITT.png
+        └── LATE.png
 ```
 
 ## Notebook Structure
@@ -157,7 +157,6 @@ selected in the lottery (treatments) with those not selected (controls)."
 - Skewed SNAP/TANF benefit dollar amounts: Based on the data exploration and visualization, the SNAP and TANF benefit dollar amounts appeared to be highly skewed, with small number of respondents having very high amounts.
 - 2008 Oregon Data: The data is from a 2008 Oregon-specific experiment, meaning that the results may not be generalizable to other states or time periods. Therefore, the findings should be framed carefully and not overstate modern implications.
 
-
 ## Project Plan
 
 **Target Variable:**
@@ -193,8 +192,6 @@ selected in the lottery (treatments) with those not selected (controls)."
 - Ask what the total medical debt would have been if everyone on the list had recieved a coverage offer, inestad of a lottery.
 - Ask what the total medical debt would have been if the same number of coverage offers had been allocated based on the largest predicted benefit, instead of a lottery. (TBD, if time permits).
 - Conduct a subgroup analysis to see which groups are most impacted by the allocation rule change.
-
-<br>
 
 ## Analysis Pipeline Enhancements
 

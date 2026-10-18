@@ -2,7 +2,7 @@
 
 **Project Name:** Allocating Scarce Medicaid Coverage: A Counterfactual Comparison of Lottery, Need-Based, and Learned Targeting in the Oregon Health Insurance Experiment
 
-**Google Colab:** 
+**Google Colab:** https://colab.research.google.com/drive/1u5X3mlRkt91kVgizIwHFNViJZg_sELED?usp=sharing
 **Author:** Chayce Reed
 
 **Date:** 10/18/26
